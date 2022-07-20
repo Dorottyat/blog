@@ -1,0 +1,165 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #eeeeee;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em;
+  background-color: #3b3b3b;
+}
+
+header nav input {
+  width: 20em;
+  height: 2em;
+  border-radius: 10px;
+  border: none;
+  background-color: #585858;
+}
+
+header nav .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 1em;
+}
+
+header nav .profile img {
+  width: 20%;
+  border-radius: 50px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em 0.5em 2em;
+  background-color: #444444;
+  gap: 2em;
+}
+
+main .post-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 3em;
+}
+
+main .post-bottom .icons img {
+  width: 30px;
+  margin-right: 1em;
+}
+
+main .post {
+  background-color: #585858;
+  padding: 1.5em;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+main .post h1 {
+  margin-bottom: 1em;
+}
+
+main section#posts {
+  width: 75%;
+}
+
+main section#posts h2 {
+  margin-bottom: 1em;
+}
+
+main section#posts .comment-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 1em;
+}
+
+main section#posts .comment-box textarea {
+  background-color: #a1a1a1;
+  width: 100%;
+  border-radius: 10px;
+  resize: none;
+}
+
+main section#posts .comment-box button {
+  border-radius: 10px;
+  border: none;
+  background-color: #a1a1a1;
+  height: 3em;
+  width: 10em;
+  display: block;
+  margin-left: auto;
+}
+
+main section#trending {
+  width: 25%;
+}
+
+main section#trending h2 {
+  margin-bottom: 1em;
+}
+
+main section#trending .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section#trending .icons p {
+  margin-right: 1.5em;
+}
+
+main section#trending .connecting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section#trending .connecting img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50px;
+}
+
+main section#trending .connecting input {
+  border: none;
+  border-radius: 10px;
+  background-color: #4ecea3;
+  padding: 0.5em;
+}
+/*# sourceMappingURL=main.css.map */

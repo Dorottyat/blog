@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(238, 238, 238);
+}
+
+header {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    background-color: rgb(59, 59, 59);
+
+    input {
+      width: 20em;
+      height: 2em;
+      border-radius: 10px;
+      border: none;
+      background-color: rgb(88, 88, 88);
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 1em;
+
+      img {
+        width: 20%;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+
+main {
+  display: flex;
+  padding: 2em 0.5em 2em;
+  background-color: rgb(68, 68, 68);
+  gap: 2em;
+
+  .post-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3em;
+    .icons {
+      img {
+        width: 30px;
+        margin-right: 1em;
+      }
+    }
+  }
+
+  .post {
+    background-color: rgb(88, 88, 88);
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+
+    h1 {
+      margin-bottom: 1em;
+    }
+  }
+
+  section#posts {
+    width: 75%;
+
+    h2 {
+      margin-bottom: 1em;
+    }
+
+    .comment-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 1em;
+
+      textarea {
+        background-color: rgb(161, 161, 161);
+        width: 100%;
+        border-radius: 10px;
+        resize: none;
+      }
+
+      button {
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(161, 161, 161);
+        height: 3em;
+        width: 10em;
+        display: block;
+        margin-left: auto;
+      }
+    }
+  }
+
+  section#trending {
+    width: 25%;
+
+    h2 {
+      margin-bottom: 1em;
+    }
+
+    .icons {
+      display: flex;
+      p {
+        margin-right: 1.5em;
+      }
+    }
+
+    .connecting {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      img {
+        width: 20%;
+        height: 20%;
+        border-radius: 50px;
+      }
+
+      input {
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(78, 206, 163);
+        padding: 0.5em;
+      }
+    }
+  }
+}
